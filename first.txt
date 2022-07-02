@@ -1,0 +1,52 @@
+u origin masumy first vertion
+now i eant some new changes in this file
+
+ all about traking the files
+---git status 
+---git init
+git add --a
+----git commit -m"msg"
+----git commit
+git log --- too see our all commit
+git status....
+
+git diff--- to compare the staging aarea fila and working directory file
+
+git rm first.txt ----------------direct remove file from cmd
+
+git mv rename.txt first.txt----------->use this command for rename the file
+
+git log -p ------for see all commit chnages
+
+git log -p -2 ----------see ony 2 commit chnages
+
+git log --stat -------->short summary of commit
+
+git log --pretty=oneline ------->all coomit show in one line
+
+git commit --amend ------------> to change the commit 
+
+i+esc-->:wq+ enter --->to back to the power shell
+
+ git remote add origin https://github.com/rakhiprajapati042001/GitTutorial.git
+
+
+$ git push -u origin master
+
+ git config --global alias.st status--------->use to chnage the command from status to st 
+
+ git config --global alias.cm commit -----> ise to chnage the command the from coomit to cm
+
+
+git checkout -b branchdeloped ----->use to create  a branch
+
+git checkout master ---->use to switch the branches
+
+git branch ---> to show all branches
+
+git merge branchname ------> to merge on master branch (apply chnges on master)
+
+
+git branch -D branchname ----->to delete the branch without merging with master
+
+git push -d origin bugfix -----> to delete the branch on git hub
